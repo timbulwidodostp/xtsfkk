@@ -1,3 +1,4 @@
-d 'xtsfkk': Endogenous panel stochastic frontier models in the style of Karakaplan and Kutlu (2017) xtsfkk.ado
+d 'xtsfkk': Endogenous panel stochastic frontier models in the style of Karakaplan and Kutlu (2017)
+f xtsfkk.ado
 f xtsfkk.sthlp
 f xtsfkk.xlsx
