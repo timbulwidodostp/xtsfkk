@@ -2,3 +2,6 @@ d 'xtsfkk': Endogenous panel stochastic frontier models in the style of Karakapl
 f xtsfkk.ado
 f xtsfkk.sthlp
 f xtsfkk.xlsx
+f sfkk.ado
+f sfkk_ml.ado
+f sfkk.sthlp
