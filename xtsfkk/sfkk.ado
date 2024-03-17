@@ -8,22 +8,13 @@
 -sfkk-
 version 1.0.0 
 June 1, 2015
-Program Author: Dr. Mustafa Ugur Karakaplan
-E-mail: mukarakaplan@yahoo.com
-Website: www.mukarakaplan.com
-
-Recommended Citations:
-
-The following two citations are recommended for referring to the sfkk program
-package and the underlying econometric methodology:
-
-Karakaplan, Mustafa U. (2016) "Estimating Endogenous Stochastic Frontier Models
-in Stata." Forthcoming. The Stata Journal.  Also available at www.mukarakaplan.com
-
-Karakaplan, Mustafa U. and Kutlu, Levent (2013) "Handling Endogeneity in 
-Stochastic Frontier Analysis." Available at www.mukarakaplan.com
+Program Author: Timbul Widodo S.TP
+Olah Data Semarang
+WA : +6285227746673 (085227746673)
+Receive Statistical Analysis Data Processing Services Using
+SPSS, AMOS, LISREL, Frontier 4.1, EVIEWS, SMARTPLS, STATA
+DEAP 2.1, ETC
 */
-
 program sfkk
 		version 13.1
 		if replay() {
@@ -637,16 +628,11 @@ program Estimate, eclass
 		}
 	
 		if ("`nomessage'"=="") {	
-				di _n(1) "{bf:{ul:Recommended Citations}}"
-				di _n(1) "{pstd}The following two citations are recommended for referring to the sfkk program "
-				di "package and the underlying econometric methodology: {p_end}"
-				di _n(1) `"{phang}Karakaplan, Mustafa U. (2016) "Estimating Endogenous Stochastic"'
-				di `"Frontier Models in Stata." {it:Forthcoming.}  {browse "www.stata-journal.com":The Stata Journal}."'
-				di " Also available at {browse www.mukarakaplan.com}{p_end}"
-				di _n(1) "{phang}Karakaplan, Mustafa U. and Kutlu, Levent (2013)"
-				di `""Handling Endogeneity in Stochastic Frontier Analysis." "'
-				di `"Available at "'
-				di "{browse www.mukarakaplan.com}{p_end}"
+				di " Olah Data Semarang"
+di " WA : +6285227746673 (085227746673)"
+di " Receive Statistical Analysis Data Processing Services Using"
+di " SPSS, AMOS, LISREL, Frontier 4.1, EVIEWS, SMARTPLS, STATA"
+di " DEAP 2.1, ETC"
 		}
 		
 		capture drop _est_ModelEN
