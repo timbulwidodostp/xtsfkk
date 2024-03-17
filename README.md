@@ -1,4 +1,4 @@
-# xtsfkk
+# xtsfkk And sfkk
 Endogenous panel stochastic frontier models in swith Endogeneity the style of Karakaplan and Kutlu (2017) Use xtsfkk And sfkk With STATA 18
 
 Olah Data Semarang
